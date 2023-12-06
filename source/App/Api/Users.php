@@ -82,4 +82,10 @@ class Users extends Api
 
     }
 
+    public function deleteUsers(array $data) : void
+    {
+        $users = (new User())->deleteUsers($data["user_id"]);
+        $this->back($users,200);
+    }
+
 }

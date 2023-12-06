@@ -201,4 +201,14 @@ class User {
         return $stmt->fetchAll();
     }
 
+    public function deleteUsers(int $user_id)
+    {
+        $query = "DELETE FROM users
+        WHERE id = {$user_id};        
+    ;
+    ";
+        $stmt = Connect::getInstance()->query($query);
+        return $stmt->fetchAll();
+    }
+
 }

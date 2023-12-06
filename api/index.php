@@ -19,12 +19,15 @@ $route->get("/user/test","Users:testToken");
 $route->get("/faqs","Faqs:listFaqs");
 
 
+$route->get("/user/delete/{user_id}", "Users:deleteUsers");
 
 $route->get("/adm","Adms:read");
 
 $route->post("/adm","Adms:create");
 
 $route->get("/adm/login","Adms:login");
+
+// $route->get("/adm/usuarios","Adms:delete");
 
 
 $route->dispatch();
