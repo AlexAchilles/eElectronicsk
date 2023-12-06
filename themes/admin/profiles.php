@@ -76,7 +76,7 @@ h4 {
 <?php
     foreach ($users as $user){
 ?>
-<button>delete user</button>
+<button class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">delete user</button>
 <div class="row">
 <div class="col-lg-4">
 <div class="text-center card-box">
@@ -91,7 +91,7 @@ h4 {
 <li class="list-inline-item"><a title data-placement="top" data-toggle="tooltip" class="tooltips" href data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
 <li class="list-inline-item"><a title data-placement="top" data-toggle="tooltip" class="tooltips" href data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
 </ul>
-<button type="button" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button>
+<button type="button" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">Visualizar perfil</button>
 <div class="mt-4">
 <div class="row">
 <div class="col-4">
